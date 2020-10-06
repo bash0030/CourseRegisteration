@@ -209,8 +209,11 @@ if (isset($_POST['btnclear'])) {
         </div>
 
     </form>
-
 </div>
+<pre> 
+
+
+</pre
 
 <?php
 include 'Common/Footer.php';
