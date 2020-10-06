@@ -5,10 +5,9 @@ include 'Common/Header.php';
 
 try {
     $myPdo = new PDO(
-        //"mysql:host=localhost;dbname=CST8257;port=3307;charset=utf8",
-        //"PHPSCRIPT",
-        // "1234"
-        "MYSQLCONNSTR_localdb;dbname=CST8257;port=3306;charset=utf8"
+        dsn="mysql:host=localdb;dbname=CST8257;Data Source=127.0.0.1:50514;charset=utf8"
+Id=azure;
+password=6#vWHD_$
 
     );
     echo "connection succesful";
