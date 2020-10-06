@@ -206,9 +206,9 @@ if (isset($_POST['btnclear'])) {
 
             </div>
         </div>
-echo "\n\n";
-    </form>
 </div>
+    echo "\n\n";
+    </form>
 
 <?php
 include 'Common/Footer.php';
