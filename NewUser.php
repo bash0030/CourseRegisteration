@@ -207,7 +207,9 @@ if (isset($_POST['btnclear'])) {
             </div>
         </div>
 </div>
-    echo "\n\n";
+     <br />
+    <br />
+    
     </form>
 
 <?php
