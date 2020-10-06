@@ -206,10 +206,9 @@ if (isset($_POST['btnclear'])) {
 
             </div>
         </div>
-</div>
+      </div>
      <br />
     <br />
-    
     </form>
 
 <?php
