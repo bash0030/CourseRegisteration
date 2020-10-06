@@ -205,15 +205,10 @@ if (isset($_POST['btnclear'])) {
                 <button type='submit' name='btnclear' class='btn btn-block btn-primary'>Clear</button>
 
             </div>
-
         </div>
-
+echo "\n\n";
     </form>
 </div>
-<pre> 
-
-
-</pre
 
 <?php
 include 'Common/Footer.php';
