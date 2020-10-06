@@ -8,7 +8,7 @@ try {
         //"mysql:host=localhost;dbname=CST8257;port=3307;charset=utf8",
         //"PHPSCRIPT",
         // "1234"
-        "mysql:host=localhost;dbname=CST8257;port=3306;charset=utf8"
+        "MYSQLCONNSTR_localdb;dbname=CST8257;port=3306;charset=utf8"
 
     );
     echo "connection succesful";
@@ -84,7 +84,7 @@ if (isset($_POST['btnsubmit'])) {
     //IF PASSING ALL THE VALIDATIONS:
     if ($userIdError == "" && $nameError == "" && $phoneNumberError == "" && $passwordError == "" && $passwordAgainError == "") {
         //encrypting the password
-        $hashed_password = sha1($passWord);
+       // $hashed_password = sha1($passWord);
 
         //Connection to DBO            
         $dbConnection = parse_ini_file("Common/db_connection.ini");
